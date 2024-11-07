@@ -1,7 +1,11 @@
 alert('Bem vindo ao jogo do número secreto');
-let nemeroSecreto = 5;
+let numeroSecreto = 5;
+console.log (numeroSecreto)
 let chute = prompt('Escolha um número entre 1 e 10');
 
-if (chute == nemeroSecreto) {
-    console.log('Isso ai! Você descobriu o número secreto (5)');
+// se chute for igual ao número secreto
+if (chute == numeroSecreto) {
+    alert('Isso ai! Você descobriu o número secreto (5)');
+} else {
+    alert('Você errou :(');
 }
